@@ -1,0 +1,106 @@
+@media (max-width: 1024px) {
+     #inicio {
+        position: static;
+    }
+    .nav_cabecalho {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .box_1_textos, .box_2_textos {
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .flutuante_direita,
+    .flutuante_esquerda {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .box_caixa_pesquisa {
+        margin: auto;
+    }
+
+    .bloco {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .bloco img {
+        width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img_cabecalho img {
+        width: 30%;
+        margin-bottom: 1rem;
+    }
+
+    .nav_cabecalho {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.5rem;
+        gap: 0.5rem;
+        width: 90%;
+        margin: 0;
+    }
+
+    .box_1_textos, .box_2_textos {
+        margin: 1rem 1rem;
+        text-align: center;
+    }
+
+    .flutuante_direita,
+    .flutuante_esquerda {
+        float: none;
+        width: 80%;
+        margin: 0.5rem auto;
+        display: block;
+    }
+
+    .input_pesquisa {
+        width: 90%;
+    }
+
+    .lupa_pesquisa{
+        display: none;
+    }
+    
+    .bloco {
+        width: 100%;
+    }
+
+    .bloco img {
+        width: 80%;
+    }
+
+    .botao_1, .botoes_galeria {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    .logo_whats{
+        display: none;
+    }
+}
