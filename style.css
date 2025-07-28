@@ -7,7 +7,7 @@ body {
     color: white;
 }
 
-main{
+main {
     width: 90%;
     margin: auto;
 }
@@ -48,7 +48,7 @@ main{
 }
 
 .img_cabecalho {
-    
+
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -60,8 +60,6 @@ main{
     bottom: 0;
     margin: 10px;
 }
-
-
 
 .box_1 {
     margin-top: 2%;
@@ -78,7 +76,7 @@ main{
     float: right;
 }
 
-.box_caixa_pesquisa {  
+.box_caixa_pesquisa {
     width: 250px;
 }
 
@@ -94,22 +92,21 @@ main{
     color: white;
     font-size: 18px;
     border-radius: 5px;
-    
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .lupa_pesquisa {
-    
-  
+
+
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
 }
 
 .box_2 {
-        
+
     padding: 2%;
 }
 
@@ -122,9 +119,11 @@ main{
 h2 {
     font-size: 3rem;
 }
-h3{
+
+h3 {
     font-size: 1.5rem;
 }
+
 h2,
 h3 {
     font-family: "Barriecito", system-ui;
